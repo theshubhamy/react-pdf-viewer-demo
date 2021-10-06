@@ -16,7 +16,7 @@ class ViewSDKClient {
   }
   previewFile(divId, viewerConfig, url) {
     const config = {
-      clientId: "ddfbf70539b046cb9152603ee2cdc49c",
+      clientId: "*******************************", ///enter lient id here
     };
     if (divId) {
       config.divId = divId;
@@ -40,7 +40,7 @@ class ViewSDKClient {
   }
   previewFileUsingFilePromise(divId, filePromise, fileName) {
     this.adobeDCView = new window.AdobeDC.View({
-      clientId: "ddfbf70539b046cb9152603ee2cdc49c",
+      clientId: "*************************************", //enter Client id here
       divId,
     });
     this.adobeDCView.previewFile(
