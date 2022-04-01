@@ -1,16 +1,13 @@
 
 .heading{
-   display: flex;
-    align-items: center;
+  
     text-align: center;
 }
 .pdfReader{
-    height: 100%;
-    position: absolute;
-    left: 0;
+    height: screen;
     width: 100%;
     overflow: hidden;
 }
-a,h1,p {
+a{
   text-align: center;
 }
