@@ -4,14 +4,14 @@ import pdfFile from "./ReactJS Notes.pdf";
 const App = () => {
   return (
    <div>
-      <h1>Adobe react pdf viewer(Adobe PDF Embed API)</h1>
+      <h1 style={{ }}  >Adobe react pdf viewer(Adobe PDF Embed API)</h1>
       <a
         target="_blank"
         href="https://theshubham.me/displaying-pdf-in-react-js-using-adobe-pdf-embed-api"
       >
         Read More
       </a>
-      <PdfReader style={{height:"100%",
+      <PdfReader style={{height:"screen",
   width:"100%"
   overflow:"hidden" }} url={pdfFile} />
       
