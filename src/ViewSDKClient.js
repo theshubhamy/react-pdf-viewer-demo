@@ -16,7 +16,7 @@ class ViewSDKClient {
   }
   previewFile(divId, viewerConfig, url) {
     const config = {
-      clientId: "*******************************", ///enter lient id here
+      clientId: "6d07d124-ac85-43b3-a867-36930f502ac6", ///enter lient id here
     };
     if (divId) {
       config.divId = divId;
