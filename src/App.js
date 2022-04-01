@@ -11,9 +11,9 @@ const App = () => {
       >
         Read More
       </a>
-      <PdfReader style={{height:100%;
-  width:100%;
-  overflow:hidden; }} url={pdfFile} />
+      <PdfReader style={{height:"100%",
+  width:"100%"
+  overflow:"hidden" }} url={pdfFile} />
       
     </div>
   )
