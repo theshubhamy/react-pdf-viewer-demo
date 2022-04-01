@@ -6,7 +6,7 @@ import App from "./App";
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
-    <App url="ReactJS Notes.pdf" />
+    <App  />
   </StrictMode>,
   rootElement
 );
