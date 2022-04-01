@@ -11,7 +11,7 @@ const App = () => {
       >
         Read More
       </a>
-      <PdfReader style={{ width: "Full", height: "screen" }} url={pdfFile} />
+      <PdfReader style={{ width: "full", height: "full" }} url={pdfFile} />
       
     </div>
   )
