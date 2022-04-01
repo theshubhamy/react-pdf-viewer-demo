@@ -9,11 +9,11 @@ const RenderMenu = ({ url }) => {
         "pdf-div",
         {
           defaultViewMode: "FIT_WIDTH",
-          showAnnotationTools: false,
-          showLeftHandPanel: false,
-          showPageControls: false,
-          showDownloadPDF: false,
-          showPrintPDF: false,
+          showAnnotationTools: true,
+          showLeftHandPanel: true,
+          showPageControls: true,
+          showDownloadPDF: true,
+          showPrintPDF: true,
         },
         url
       );
