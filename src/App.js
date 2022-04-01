@@ -5,13 +5,8 @@ import "./App.css";
 const App = () => {
   return (
    <div>
-      <h1 className="heading"  >Adobe react pdf viewer(Adobe PDF Embed API)</h1>
-      <a className="link"
-        target="_blank"
-        href="https://theshubham.me/displaying-pdf-in-react-js-using-adobe-pdf-embed-api"
-      >
-        Read More
-      </a>
+      <a  target="_blank" href="https://theshubham.me/displaying-pdf-in-react-js-using-adobe-pdf-embed-api" className="heading"  >Adobe react pdf viewer(Adobe PDF Embed API)</a>
+      
       <PdfReader className="pdfReader" url={pdfFile} />
       
     </div>
