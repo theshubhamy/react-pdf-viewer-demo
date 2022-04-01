@@ -22,6 +22,7 @@ const RenderMenu = ({ url }) => {
   return (
     <div className="mt-28">
       <div
+     style = {{height:"100vh"}}
         id="pdf-div"
         className="full-window-div border border-gray-100 h-screen"
         onDocumentLoad={loadPDF()}
