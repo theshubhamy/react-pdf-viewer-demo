@@ -1,8 +1,16 @@
-//app.css
+
 .heading{
-   height: 100%;
+   display: flex;
+    align-items: center;
+    text-align: center;
+}
+.pdfReader{
+    height: 100%;
     position: absolute;
     left: 0;
     width: 100%;
     overflow: hidden;
+}
+.div.a {
+  text-align: center;
 }
