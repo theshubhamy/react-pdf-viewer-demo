@@ -1,8 +1,8 @@
-import React from 'react'
-
+import React from 'react';
+import PdfReader from "./PdfReader";
 const App = () => {
   return (
-    <div><
+    <div><PdfReader url="/.pdf"/>
     </div>
   )
 }
