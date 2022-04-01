@@ -11,6 +11,6 @@
     width: 100%;
     overflow: hidden;
 }
-.div.a {
+a,h1,p {
   text-align: center;
 }
